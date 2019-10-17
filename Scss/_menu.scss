@@ -9,7 +9,8 @@
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background: #fff;
+        background: set-text-color($primary-color);
+        ;
         @include easeOut;
     } //spin to x
     &.close {
@@ -89,6 +90,7 @@
         position: relative;
         font-size: 30px;
         font-weight: 300;
+        color: set-text-color($primary-color);
         text-transform: uppercase;
         padding: 1rem 0;
         text-decoration: none;
