@@ -49,6 +49,7 @@
         background: url('../img/portrait.jpg');
         width: 150px;
         height: 150px;
+        background-size: contain;
       }
     }
   
@@ -78,7 +79,7 @@
   
       .lg-heading {
         margin-top:1rem;
-        font-size: 5rem;
+        font-size: 4rem;
       }
     }
   

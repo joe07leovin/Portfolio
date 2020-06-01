@@ -277,7 +277,8 @@ main {
     .menu-branding .portrait {
       background: url("../img/portrait.jpg");
       width: 150px;
-      height: 150px; }
+      height: 150px;
+      background-size: contain; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
@@ -291,6 +292,6 @@ main {
       margin-top: 10vh; }
     main .lg-heading {
       margin-top: 1rem;
-      font-size: 5rem; }
+      font-size: 4rem; }
   .projects {
     grid-template-columns: 1fr; } }
