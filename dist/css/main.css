@@ -280,7 +280,7 @@ main {
       height: 150px;
       background-size: contain; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
@@ -293,5 +293,7 @@ main {
     main .lg-heading {
       margin-top: 1rem;
       font-size: 4rem; }
+    main.sm-heading {
+      font-size: 1rem; }
   .projects {
     grid-template-columns: 1fr; } }
